@@ -1,0 +1,62 @@
+/* Resetting some default styles for better consistency */
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(63, 212, 49);
+    color: #8f0000;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#home {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#games {
+    background-color: #e6e6e6;
+    color: #333;
+}
+
+#about {
+    background-color: #dcdcdc;
+    color: #333;
+}
+
+#contact {
+    background-color: #c9c9c9;
+    color: #333;
+}
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
